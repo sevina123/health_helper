@@ -1,0 +1,36 @@
+/* Custom Styles for Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f9fb;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    padding-bottom: 80px; /* Ruang untuk footer */
+}
+.menu-card {
+    /* Styling untuk kartu menu */
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.75rem; /* 12px */
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 600;
+}
+.menu-card:hover {
+    transform: translateY(-2px);
+}
+/* Custom utility for graph canvas size */
+.chart-container {
+    height: 250px;
+    width: 100%;
+}
+canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
